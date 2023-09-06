@@ -1,0 +1,10 @@
+package pessoa;
+
+public class Pessoa {
+	String nome, cpf;
+	int idade, peso;
+	
+	public void Pessoa(String cpf, String nome, int peso, int idade) {
+		
+	}
+}

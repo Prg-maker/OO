@@ -1,0 +1,9 @@
+package pessoa;
+
+public class Test {
+	public static void main(String[] args) {
+		Pessoa ana = new Pessoa();
+		ana.Pessoa("Daniel", "012.123.232-32", 12, 12);
+		
+	}
+}

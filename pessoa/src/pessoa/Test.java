@@ -1,0 +1,16 @@
+package pessoa;
+
+public class Test {
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa();
+		
+		pessoa.Pessoa("Rui", "4321", 21, 34);
+		pessoa.Pessoa("Ana", "4325", 12, 2);
+		pessoa.Pessoa("Nara", "43256", 13, 34);
+		
+		String nome = pessoa.getNome("Daniel");
+		
+		System.out.println(nome);
+		
+	}
+}
