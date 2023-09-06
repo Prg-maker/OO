@@ -1,0 +1,18 @@
+package project;
+
+ 
+import java.util.Scanner;
+
+public class Project  {
+	public static void main(String[] args) { 
+		Scanner xs= new Scanner(System.in);
+	
+		
+		System.out.print("Principal: ");
+		int p = xs.nextInt();
+		System.out.print("Annual Interest Rate: ");
+		System.out.print("Period: ");
+		System.out.print("Mortgage: ");
+	}
+	
+}

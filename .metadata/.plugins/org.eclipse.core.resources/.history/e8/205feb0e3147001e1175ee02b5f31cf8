@@ -1,0 +1,24 @@
+package project;
+
+ 
+import java.util.Date;
+
+
+
+public class Project {
+	public static void main(String[] args) { 
+		
+		String name= "daniel";
+		
+		name.toUpperCase().trim();
+		System.out.println(name.indexOf("d"));
+		
+		
+		
+	}
+	public static void Teste() {
+		int [] numbers = new int[] {1 , 2 , 3};
+		System.out.println(numbers[2]);
+
+	}
+}

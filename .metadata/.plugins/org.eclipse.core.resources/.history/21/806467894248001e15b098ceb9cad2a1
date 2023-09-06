@@ -1,0 +1,27 @@
+package project;
+
+ 
+import java.util.Scanner;
+import java.text.NumberFormat;
+
+public class Project  {
+	public static void main(String[] args) { 
+		Scanner xs= new Scanner(System.in);
+		NumberFormat currency = NumberFormat.getCurrencyInstance();
+		
+		
+		System.out.print("Principal: ");
+		int principal = xs.nextInt();
+		
+		System.out.print("Annual Interest Rate: ");
+		int year = xs.nextInt();
+		
+		
+		System.out.print("Period: ");
+		int year = xs.nextInt();
+		
+		
+		System.out.print("Mortgage: ");
+	}
+	
+}

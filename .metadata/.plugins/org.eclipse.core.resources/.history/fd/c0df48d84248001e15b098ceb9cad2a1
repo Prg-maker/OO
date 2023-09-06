@@ -1,0 +1,15 @@
+package project;
+
+ 
+import java.util.Scanner;
+import java.text.NumberFormat;
+
+public class Project  {
+	public static void main(String[] args) { 	
+		boolean isChan = true;
+		
+		String response = isChan? "daniel" : "gabriel" ;
+		System.out.println(response);
+	}
+	
+}

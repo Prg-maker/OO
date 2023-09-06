@@ -1,0 +1,21 @@
+package project;
+
+ 
+import java.util.Date;
+
+
+
+public class Project {
+	public static void main(String[] args) { 
+		
+		int [] numbers = new int[] {1 , 2 , 3};
+		numbers[2] = 2;
+		System.out.println(numbers[1]);
+		
+		
+	}
+	public static void Teste() {
+	
+
+	}
+}

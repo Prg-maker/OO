@@ -1,0 +1,23 @@
+package project;
+
+ 
+import java.util.Date;
+
+
+
+public class Project {
+	public static void main(String[] args) { 
+		
+		String name ="daniel";
+		
+		
+		System.out.println(name.endsWith("!!"));
+		
+		
+		
+	}
+	public static void Teste() {
+		
+
+	}
+}

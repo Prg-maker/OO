@@ -1,0 +1,17 @@
+package project;
+
+ 
+import java.util.Date;
+
+public class Project {
+	public static void main(String[] args) { 
+		byte age = 30;
+		Date now = new Date();
+		
+		Project.Teste(); test = new Project().Teste();
+	}
+	public static void Teste() {
+		
+
+	}
+}
