@@ -3,7 +3,7 @@ package pessoa;
 public class Pessoa {
 	private String nome, cpf;
 	private int idade, peso;
-	
+	// nomes de atriburos sao substantivos
 	public void Pessoa(String cpf, String nome, int peso, int idade) {
 		this.nome = nome;
 		this.idade = idade;
@@ -20,8 +20,8 @@ public class Pessoa {
 		return nome;
 	}
 	
-	public void Pessoa(Pessoa pessoa) {
-		
-		
+	public static Pessoa pessoa() {
+		Pessoa pessoa = new Pessoa();
+		return pessoa;
 	}
 }
